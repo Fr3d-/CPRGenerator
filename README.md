@@ -3,6 +3,7 @@ CPRGenerator
 
 Python script that will generate all the possible CPR (Personal identification number) for a given date of birth and gender.
 
+```
 usage: CPRGenerator.py [-h] [-c] dob gender
 
 CPR (Personal identification number) generator.
@@ -20,3 +21,4 @@ optional arguments:
   -h, --help   show this help message and exit
   -c, --count  print the number of generated CPR numbers
 
+```
