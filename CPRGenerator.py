@@ -52,9 +52,8 @@ on the 10th December 1999"""
 	else:
 		sys.exit("Invalid argument: gender can be either female or male.")
 
-	if( int( args.dob ) < 010100 ):
-		sys.exit("Invalid argument: The date of birth has to be the following format DDMMYY")
-
+	if( int( args.dob ) < 010100 or int( args.dob ) > 311299):
+		sys.exit("Invalid argument: The date of birth has to be the following format DDMMYY")	
 	results, count = generate( args.dob, gender )
 
 	for CPR in results:
